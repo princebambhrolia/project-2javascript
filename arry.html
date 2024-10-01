@@ -1,0 +1,26 @@
+<script>
+
+    let arr=[];
+
+    let userInput=parseFloat(prompt());
+
+    for(let i=0; i<userInput; i++){
+
+        let num=parseFloat(prompt());
+
+        arr.push(num);
+
+    }
+
+    for(let i=0;i<userInput;i++){
+
+        if(arr[i]%2==0){
+
+            console.log(`even = ${arr[i]}`);
+
+        }else{
+
+            console.log(`odd = ${arr[i]}`);
+        }
+}
+</script>
